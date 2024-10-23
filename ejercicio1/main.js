@@ -10,7 +10,6 @@ const getCharacters = async () => {
 
 const printCharacters = (characters) => {
     const select = document.getElementById("character-list");
-    
     for (const character of characters) {
         const option = document.createElement("option");
         option.value = character.imageUrl;
